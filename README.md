@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Amazon Ads is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://advertising.amazon.com
+Amazon Ads provides online advertising solutions that help businesses reach, attract, and engage customers across Amazon's ecosystem, including search, display, video, and streaming platforms. The service offers full‑funnel advertising at scale for brands of all sizes, with tools for campaign creation, targeting, measurement, and optimization.
+
+**Areas:** Advertising · Marketing · Amazon · Technology · Software-as-a-Service
+
+## Amazon Ads on APIs.io
+
+Everything profiled for Amazon Ads is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/amazon-ads/](https://apis.io/providers/amazon-ads/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Amazon Ads API](https://apis.io/apis/amazon-ads/amazon-ads-api-2/) — Advertising API for Amazon Ads platform
+- [Amazon Ads Activategiftcard API](https://apis.io/apis/amazon-ads/amazon-ads-activategiftcard-api/) — The Activategiftcard API from Amazon Ads — 1 operation(s) for activategiftcard.
+- [Amazon Ads Activationstatuscheck API](https://apis.io/apis/amazon-ads/amazon-ads-activationstatuscheck-api/) — The Activationstatuscheck API from Amazon Ads — 1 operation(s) for activationstatuscheck.
+- [Amazon Ads Amazon Ads API](https://apis.io/apis/amazon-ads/amazon-ads-amazon-ads-api-api/) — The Amazon Ads API API from Amazon Ads — 1 operation(s) for amazon ads api.
+- [Amazon Ads Cancelgiftcard API](https://apis.io/apis/amazon-ads/amazon-ads-cancelgiftcard-api/) — The Cancelgiftcard API from Amazon Ads — 1 operation(s) for cancelgiftcard.
+- [Amazon Ads Creategiftcard API](https://apis.io/apis/amazon-ads/amazon-ads-creategiftcard-api/) — The Creategiftcard API from Amazon Ads — 1 operation(s) for creategiftcard.
+- [Amazon Ads Deactivategiftcard API](https://apis.io/apis/amazon-ads/amazon-ads-deactivategiftcard-api/) — The Deactivategiftcard API from Amazon Ads — 1 operation(s) for deactivategiftcard.
+- [Amazon Ads Getgiftcard API](https://apis.io/apis/amazon-ads/amazon-ads-getgiftcard-api/) — The Getgiftcard API from Amazon Ads — 1 operation(s) for getgiftcard.
+- [Amazon Ads Install API](https://apis.io/apis/amazon-ads/amazon-ads-install-api/) — The Install API from Amazon Ads — 1 operation(s) for install.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostActivationstatuscheckRequest](https://apis.io/schemas/amazon-ads/amazon-ads-post-activationstatuscheck-request/)
+- [PostActivationstatuscheckResponse](https://apis.io/schemas/amazon-ads/amazon-ads-post-activationstatuscheck-response/)
+- [PostDeactivategiftcardRequest](https://apis.io/schemas/amazon-ads/amazon-ads-post-deactivategiftcard-request/)
+- [PostDeactivategiftcardResponse](https://apis.io/schemas/amazon-ads/amazon-ads-post-deactivategiftcard-response/)
+- [PostGetgiftcardRequest](https://apis.io/schemas/amazon-ads/amazon-ads-post-getgiftcard-request/)
+- [PostGetgiftcardResponse](https://apis.io/schemas/amazon-ads/amazon-ads-post-getgiftcard-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Amazon Ads Context](https://apis.io/jsonld/amazon-ads/amazon-ads-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Amazon Ads API Rules](https://apis.io/rules/amazon-ads/amazon-ads-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Amazon Ads Domain Security](https://apis.io/security/amazon-ads/amazon-ads-domain-security/)
+- [Amazon Ads Vulnerability Disclosure](https://apis.io/security/amazon-ads/amazon-ads-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://advertising.amazon.com)
+- [Documentation](https://developer.amazon.com/)
+- [Getting started](https://developer.amazon.com/frustration-free-setup)
+- [Sign up](https://advertising.amazon.com/register?ref_=a20m_us_gw_df_z1_rgstr)
+- [Changelog](https://advertising.amazon.com/resources/whats-new/unboxed-2025-creative-agent?ref_=a20m_us_wn_ftrd3_btn_111125_wn_ca)
+- [Security](https://hackerone.com/amazonvrp)
+- [Terms of service](https://developer.amazon.com/terms-and-agreements)
+- [GitHub](https://github.com/AmazonAppDev)
+
+## API Evangelist rating
+
+**Kin Score 31.9** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 25.5 |
+| Contract governance | 35.6 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 23.7 |
+
+**Agent readiness 25.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | documented (partial credit) |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 26.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/amazon-ads/](https://apis.io/providers/amazon-ads/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Amazon Ads: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/amazon-ads/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
